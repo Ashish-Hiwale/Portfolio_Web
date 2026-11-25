@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The portfolio of Ashish Ravi Hiwale, a first-year CSE student interested in AI and web development.">
+  <title>Ashish Ravi Hiwale | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a class="logo" href="#home">Ashish</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home section" id="home">
+      <div class="home-text">
+        <h1>Welcome to My Portfolio<br><span>Ashish Ravi Hiwale</span></h1>
+        <p>
+          I’m a first-year CSE student who enjoys turning ideas into small web projects.<br>
+          I’m learning AI and data while building practical skills through NIAT.
+        </p>
+        <a class="button" href="#contact">Contact Me</a>
+      </div>
+      <img class="profile-image" src="images/profile.jpg" alt="Profile photo of Ashish Ravi Hiwale">
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading">
+        <h2>About Me</h2>
+      </div>
+      <div class="about-content">
+        <p>
+          I’m Ashish, a curious student who likes learning by making things. I’m studying
+          B.Tech in Computer Science and Engineering (AI &amp; Data Science) at Alard
+          University in Pune, and I’m also part of NIAT, a project-based upskilling
+          program by NxtWave. I expect to graduate in 2030.
+        </p>
+        <p>
+          Outside class, I’m interested in AI, building web apps, working with data,
+          and playing musical instruments. My goal is to become an AI or software
+          engineer and build useful products that solve real problems.
+        </p>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-heading">
+        <h2>My Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card"><strong>&lt;/&gt;</strong><span>HTML</span></div>
+        <div class="skill-card"><strong>{ }</strong><span>CSS</span></div>
+        <div class="skill-card"><strong>Py</strong><span>Python</span></div>
+        <div class="skill-card"><strong>Music</strong><span>Musician</span></div>
+        <div class="skill-card"><strong>AI</strong><span>Problem Solving</span></div>
+        <div class="skill-card"><strong>Video</strong><span>Video Editor</span></div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-heading">
+        <h2>My Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="images/project1.jpg" alt="Preview image for my portfolio website project">
+          <div class="project-info">
+            <h3>Portfolio Website</h3>
+            <p>
+              A simple portfolio project focused on content creation and presenting
+              my interests, skills, and work in one place.
+            </p>
+            <a class="project-button" href="#contact">View Project</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="images/project2.jpg" alt="Preview image for the Medease health tech app">
+          <div class="project-info">
+            <h3>Medease App</h3>
+            <p>
+              A health tech app idea that explores how a clear, easy-to-use app
+              could help people with everyday health needs.
+            </p>
+            <a class="project-button" href="#contact">View Project</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-heading">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-details">
+          <p><strong>Name</strong><br>Ashish Ravi Hiwale</p>
+          <p><strong>Email</strong><br><a href="mailto:ashishhiwaleniat@gmail.com">ashishhiwaleniat@gmail.com</a></p>
+          <p><strong>University</strong><br>Alard University, Pune</p>
+        </div>
+        <form class="contact-form" action="mailto:ashishhiwaleniat@gmail.com" method="post" enctype="text/plain">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="full-name">Full Name</label>
+              <input id="full-name" name="name" type="text" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="button" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Ashish Ravi Hiwale</p>
+    <p>&copy; 2026 Ashish Ravi Hiwale. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="https://github.com/Ashish-Hiwale" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>
